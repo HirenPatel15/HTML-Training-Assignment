@@ -1,0 +1,157 @@
+body 
+{
+    background-color: whitesmoke;
+    
+}
+
+header
+{
+    display: flex;
+    background-color: white;
+   
+    
+}
+
+.logo
+{
+    height: 25px;
+    margin-left: 17px;
+    margin-top: 3px;
+    
+}
+
+.search
+{
+    height: 22px;
+    margin-left: 100px;
+    margin-top: 3px;   
+}
+.searchbox
+{
+    margin-left: 5px;
+    margin-top: 4px ;
+}
+
+.profile
+{
+    height: 30px;
+    margin-left:50px ;
+}
+
+.profilename
+{
+    margin-left: 10px;
+    margin-top: 4px ;
+}
+
+.downward 
+{
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.notification
+{
+    height: 20px;
+    margin-left: 950px;
+    margin-top: 4px;
+}
+
+.imageDash
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+
+.imageAnalysis
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.imageInbox
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.imageHistory
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.imageUsers
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.imageMaintenance
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.imageSetting
+{
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+.para
+{
+    margin-left: 20px;
+}
+
+.sidebar
+{
+    background-color: white;
+    width: 200px;
+    height: 43em;
+}
+
+.body 
+{
+    display: flex;
+}
+
+.h2
+{
+    margin-left: 62px;
+}
+
+.img
+{
+    margin-left: -5em;
+    margin-top: 81px;
+    background-color: white;
+    height: 70px;
+    width: 170px;
+}
+
+.star
+{
+    margin-left: 1em;
+    margin-top: 15px;
+}
+
+.text
+{
+    margin-left: -1em;
+    margin-top: -52px;
+}
+
+

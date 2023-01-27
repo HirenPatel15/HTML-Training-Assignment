@@ -1,0 +1,43 @@
+
+.mb{
+margin-bottom: 2rem;
+}
+.fontlarge{
+    
+    font-size: xx-large;
+}
+.fontxlarge{
+    font-size: x-large;
+
+}
+.images{
+    border: 15px solid white; 
+    margin-left: 50px ; 
+    box-shadow: 0px 4px 31px #0000000A;
+    border-radius: 300px;
+}
+.newuser{
+    padding:30px
+}
+.login{
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+    border-radius: 23px;
+}
+.forgotpassword{
+padding-top:12px
+}
+.backgroundcolor{
+    background-color:#FAFAFA;
+}
+.textcolor{
+    color: #3E3E3E;
+}
+.lightcolor{
+    color:#ADADAD;
+}
+.container {
+  width: 620px;
+  min-width: 60%-100%;
+}
+
