@@ -92,29 +92,39 @@
             <div class="col-lg-10 px-5">
                 <h2 class="my-5 ms-3">Analysis</h2>
 
-                <div class="">
-                    one column
-                </div>
+                one column
 
 
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                     </div>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+                        placeholder="Name">
                 </div>
 
-                <div class="input-group mb-3">
+                <div class="col-md pb-4">
+
+                    <select class="dropdown py-1 show-menu-arrow  w-100"
+                        title="Choose one of the following...">
+                        <option class="text-secondary">dropdown </option>
+                        <option>Option1</option>
+                        <option>Option2</option>
+
+                    </select>
+                </div>
+                <!-- <div class="input-group mb-3">
                     <div class="input-group-prepend">
                     </div>
                     <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
                     <div class="input-group-append">
                     </div>
-                </div>
+                </div> -->
 
                 <div class="input-group">
                     <div class="input-group-prepend">
                     </div>
-                    <textarea class="form-control" aria-label="With large-textarea" rows="3"></textarea>
+                    <textarea class="form-control" aria-label="With large-textarea" rows="3"
+                        placeholder="Multiple line"></textarea>
                 </div>
                 <br>
                 two column
@@ -123,7 +133,8 @@
                 <br>
                 <div class="row">
                     <div class="col-6 py-2">
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+                            placeholder="Name">
                     </div>
                     <div class="col-6 py-2">
                         <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
@@ -132,12 +143,19 @@
                 </div>
                 <div class="row justify-content-around ">
                     <div class="col-6 ">
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+                            placeholder="password">
 
                     </div>
-                    <div class="col-6 ">
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class="col-6 pb-4">
 
+                        <select class="dropdown py-1 show-menu-arrow  w-100 border-secondary"
+                            title="Choose one of the following...">
+                            <option class="text-secondary">dropdown </option>
+                            <option>Option1</option>
+                            <option>Option2</option>
+    
+                        </select>
                     </div>
                 </div>
                 <br>
@@ -146,12 +164,11 @@
                 <br>
                 <div>
                     <div class="row align-items-start">
-                        <div class="col">
-                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-
+                        <div class="col bor">
+                            <input type="text" class="form-control border-danger" id="basic-url" aria-describedby="basic-addon3"placeholder="focus">
                         </div>
                         <div class="col">
-                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                            <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="password">
 
                         </div>
                         <div class="col">
@@ -162,33 +179,48 @@
                 </div>
                 <br>
                 four column
-                <div class="col-4">
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                <div class="row">
 
-                </div>
-                <div class="col-4">
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class=" col-lg-3 col-md-6 col-sm-12 mt-2">
 
-                </div>
-                <div class="col-4">
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <input type="text" class="form-control is-invalid" id="validationServer03"
+                            placeholder="Designation" aria-describedby="validationServer03Feedback" required>
+                        <div id="validationServer03Feedback" class="invalid-feedback text-danger">
+                            Enter valid data
+                        </div>
 
-                </div>
-                <div class="col-4">
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="  col-lg-3 col-md-6 col-sm-12 mt-2">
+                        <input type="password" class="form-control " id="inputEmail4" placeholder="Name">
+                        <div class="ps-1" style="font-size:14px ; color: #ADADAD;">Enter your full Name as per ID</div>
 
+                    </div>
+                    <div class="  col-lg-3 col-md-6 col-sm-12 mt-2 ">
+
+                        <input type="text" class="form-control " id="inputEmail4" placeholder="Username">
+                    </div>
+                    <div class="  col-lg-3 col-md-6 col-sm-12 mt-2 ">
+
+                    
+
+                            <select class="dropdown py-1 show-menu-arrow  w-100 border-secondary"
+                                title="Choose one of the following...">
+                                <option class="text-secondary">dropdown </option>
+                                <option>Option1</option>
+                                <option>Option2</option>
+        
+                            </select>
+                        </div>
                 </div>
                 <br>
                 other design element
                 <br> <br>
                 file upload
                 <br> <br>
-                <button class="login btn btn-danger btn-lg btn-inline rounded-pill" type="button">
-                    <img src="./Images/cloud-upload-icon.svg" alt=""
-                        class=" p-12 text-danger bg-danger bg-opacity-10 border border-danger rounded-2">upload</button>
-                <div> No item selected
-                    <br> <br>
-                </div>
+                <button class="login btn border-danger btn-lg btn-inline rounded-pill text-danger opacity-20" type="button">
+                    <img src="./Images/cloud-upload-icon.svg" alt="" class=" p-12 "> upload</button>
+                No item selected
+                <br> <br>
                 radio button
                 <br>
                 <div class="form-check form-check-inline">
@@ -216,7 +248,7 @@
                 <div class="row">
                     <div class="col-6 py-2">
                         <input type="text" class="form-control border-danger" id="basic-url"
-                        aria-describedby="basic-addon3" placeholder="this is error message!">
+                            aria-describedby="basic-addon3" placeholder="this is error message!">
                     </div>
                     <div class="col-6 py-2">
                         <input type="text" class="form-control border-primary" id="basic-url"
@@ -246,7 +278,7 @@
                     <h4>tabs</h4>
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">tab1</a>
+                            <a class="nav-link active" aria-current="page" href="#">tab1</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">tab 2</a>
@@ -254,10 +286,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">tab 3</a>
                         </li>
-                        
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt id ea natus, laudantium iste magnam a sint quam, magni atque explicabo dicta consequuntur consectetur debitis nobis! Blanditiis unde sit id incidunt accusantium praesentium suscipit ipsam quidem ducimus saepe quaerat quos magnam aut reiciendis cupiditate, facere illo inventore enim ea. Ipsum beatae exercitationem perspiciatis aliquid? Odio, alias enim. Cupiditate consectetur explicabo voluptatem. Voluptatum, ab quas?</p>
 
-                      </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt id ea natus, laudantium
+                            iste magnam a sint quam, magni atque explicabo dicta consequuntur consectetur debitis nobis!
+                            Blanditiis unde sit id incidunt accusantium praesentium suscipit ipsam quidem ducimus saepe
+                            quaerat quos magnam aut reiciendis cupiditate, facere illo inventore enim ea. Ipsum beatae
+                            exercitationem perspiciatis aliquid? Odio, alias enim. Cupiditate consectetur explicabo
+                            voluptatem. Voluptatum, ab quas?</p>
+
+                    </ul>
                 </div>
 
             </div>
@@ -270,3 +307,5 @@
 
 
 </html>
+
+
