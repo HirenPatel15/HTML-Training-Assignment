@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -13,12 +13,12 @@
 
 
 
-<body style="background-color: #FAFAFA;">
+<body  style="background-color: #FAFAFA;">
     <div class="main-container container-fuid w-auto h-auto" style="background-color: white;">
 
         <div class="row flex-nowrap">
-            <div id="sidebar" class="col-auto ">
-                <div class="row-auto d-flex justify-content-start align-items-center flex-row mt-3">
+            <div id="sidebar" class="col-auto" class="w-100">
+                <div class="row-auto  d-flex justify-content-start align-items-center flex-row mt-3">
                     <img src="images/menu-bar.svg" alt="menubar" id="menubar" type="button" data-bs-toggle="collapse"
                         data-bs-target=".toggle-elements" aria-expanded="false" aria-controls="toggle-elements">
                     <div class="ps-2 sidebar-logo toggle-elements"> <img src="images/logo.svg" alt="logo" width="125px">
@@ -84,20 +84,21 @@
                 </div>
 
 
-                <div class="row row-auto" style="background-color: #ebecf0;">
+                <div class="row " style="background-color: #FAFAFA;">
                     <h1 class="pt-5 ps-2 pb-2">Dashboard</h1>
-                    <div class="row w-100">
-                        <div class="col bg-white m-2 ms-3 pt-2 pb-2">
-                            <div class="row">
+                    <div class="row ml-5">
+                        <div class="col-lg-2 col-md-4 col-md-6  mb-2 bg-white m-2 ms-3 pt-2 pb-2">
+                        <!-- <div class="col bg-white m-2 ms-3 pt-2 pb-2"> -->
+                            <div class="row card-text">
                                 <div class="col"> <img src="images/star.svg" alt="star"> </div>
-                                <div class="col">
+                                <div class="col ">
                                     <div class="row fw-bold">23,456</div>
                                     <div class="row">New Products</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 pt-2 pb-2">
+                        <div class="col-lg-2 col-md-6  mb-2 bg-white m-2 ms-3 pt-2 pb-2">
                             <div class="row">
                                 <div class="col"> <img src="images/new-product.svg" alt="new-product"> </div>
                                 <div class="col">
@@ -107,7 +108,7 @@
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 pt-2 pb-2">
+                        <div class="col-lg-2 col-md-6  mb-2 bg-white m-2 ms-3 pt-2 pb-2">
                             <div class="row ">
                                 <div class="col"> <img src="images/total-product.svg" alt="total-product" width="50px">
                                 </div>
@@ -118,7 +119,7 @@
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 pt-2 pb-2">
+                        <div class="col-lg-2 col-md-6  mb-2 bg-white m-2 ms-3 pt-2 pb-2">
                             <div class="row">
                                 <div class="col"> <img src="images/money-bag.svg" alt="today-sales"> </div>
                                 <div class="col">
@@ -128,7 +129,7 @@
                             </div>
                         </div>
 
-                        <div class="col bg-white m-2 me-3 pt-2 pb-2">
+                        <div class="col-lg-2 col-md-6  mb-2 bg-white m-2 ms-3 pt-2 pb-2">
                             <div class="row">
                                 <div class="col"> <img src="images/dollar-filled.svg" alt="total-sales"> </div>
                                 <div class="col">
@@ -141,7 +142,7 @@
                     </div>
 
                     <div class="row mt-4 d-flex justify-content-center align-items-center">
-                        <div class="col w-7auto ms-3 bg-white mb-3">
+                        <div class="col w-7 auto ms-3 bg-white mb-3">
                             <div class="row mb-2 mt-1 p-1">
                                 <div class="col-auto col-lg-6 col-md-6 d-flex align-items-center">
                                     <div class="fs-3 fw-bold">sales</div>
@@ -154,7 +155,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="images/data-graph.png" alt="data-graph" class="graph-image mb-1">
+                            <img src="images/data-graph.png" alt="data-graph" class="graph-image mb-3">
                         </div>
                         <div class="col w-auto bg-white ms-3 me-3 mb-3">
                             <div class="bg-white fw-bold">
@@ -183,11 +184,11 @@
 
                     <div class="row mt-4 d-flex align-items-center">
                         <span class="col col-auto fs-3 ms-2">invoice</span>
-                        <div class="col d-flex flex-row-reverse pe-4">view all</div>
+                        <div class="col d-flex flex-row-reverse pe-4 text-danger">view all</div>
                     </div>
 
-                    <div class="row d-flex justify-content-center align-items-center table-responsive">
-                        <table class="table bg-white">
+                    <div class=" d-flex justify-content-center align-items-center  ">
+                        <table class="table bg-white table-responsive ">
                             <tr>
                                 <th>invoice</th>
                                 <th>company name</th>
